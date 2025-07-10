@@ -1,0 +1,77 @@
+ .gradient-background {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+    }
+    .profile-img {
+      border-radius: 50%;
+      height: 100px;
+    }
+    .icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.image-container img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffc107;
+}
+.hover-warning:hover {
+    background-color: #ffc107; 
+    color: #000;
+    border-color: #ffc107;
+    transition: 0.3s;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+.navbar-brand
+{
+color: #ffc107 !important;
+ 
+}
+.footer a:hover {
+  color: #ffc107 !important;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.btn-light{
+  background-color: #ffc107 !important;
+  color: black !important;
+  border-color: #ffc107 !important;
+
+}
+
+.btn-outline-light {
+  border-color: #ffc107;
+  color: white;
+}
+.btn-outline-light:hover {
+  background-color: #ffc107;
+  color: black;
+  border-color: #ffc107;
+}
+.btn-dark {
+  background-color: #ffc107;
+  color: black;
+  border-color: #ffc107;
+  transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color:  #ffc107; /* slightly darker yellow */
+  color: black;
+  
+}
+
+
+
+
+
+
