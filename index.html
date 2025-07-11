@@ -92,12 +92,21 @@
           </li>
 
           <!-- CTA Buttons -->
-          <li class="nav-item px-2 py-2">
-            <a class="btn btn-outline-light ms-2 w-100 fw-semibold" href="#Login">Login</a>
-          </li>
-          <li class="nav-item px-2 py-2">
-            <a class="btn btn-warning ms-2 w-100 fw-semibold" href="#Signup">Signup</a>
-          </li>
+          <li class="nav-item d-lg-none my-2">
+  <a class="btn btn-outline-light w-100 fw-semibold" href="#Login">Login</a>
+</li>
+<li class="nav-item d-lg-none mb-2">
+  <a class="btn btn-warning w-100 fw-semibold" href="#Signup">Signup</a>
+</li>
+
+<!-- For large screens: display inline -->
+<li class="nav-item d-none d-lg-block">
+  <div class="d-flex">
+    <a class="btn btn-outline-light fw-semibold me-2" href="#Login">Login</a>
+    <a class="btn btn-warning fw-semibold" href="#Signup">Signup</a>
+  </div>
+</li>
+
 
         </ul>
       </div>
@@ -121,7 +130,7 @@
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">            
 <a href="https://www.youtube.com/@vamshicreatesintelugu" 
    target="_blank" 
-   class="btn btn-light btn-lg px-4">
+   class="btn btn-light btn-lg px-4 mb-3 ">
    Watch on YouTube
 </a>
 
@@ -130,7 +139,7 @@
    target="_blank" 
 
     rel="noopener noreferrer" 
-   class="btn btn-outline-light btn-lg px-4">
+   class="btn btn-outline-light btn-lg px-4 mb-3 ">
     Visit Website
 </a>
           </div>
